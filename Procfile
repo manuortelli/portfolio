@@ -1,1 +1,1 @@
-node backEnd/index
+node index
