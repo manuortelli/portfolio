@@ -6,8 +6,9 @@ import Portfolio from './Components/Portfolio/Portfolio';
 function App() {
   return (
     <div className="App">
-       <About></About>
-       {/*<Portfolio></Portfolio>*/}
+       
+     <About></About>
+      <Portfolio></Portfolio>
     </div>
   );
 }
