@@ -11,20 +11,20 @@ function About() {
             )
     }, [setInformation])
     return (
-        <div className="About">
-            <div className="Container-photo">
+        <div className="container-About">
+            <div className="containerPhoto">
                 <img className="photo" alt="FotoDePerfil" src={information.photo}>
                 </img>
             </div>
-            <div className="Description">
-                <h1>{information.name}</h1>
-                <h2>{information.profession}</h2>
-                <p>{information.about_me}</p>
-                <ul className="Skills">
+            <div className="description">
+                <h1 className="name">{information.name}</h1>
+                <h3>{information.profession}</h3>
+                <p className="aboutMe">{information.about_me}</p>
+                {/*<ul className="skills">
                     { information.skills && information.skills.map((skill,index) =>
-                            <p>{skill}</p>
+                           <li>{skill}</li>
                    )}
-                </ul>
+                    </ul>*/}
             </div>
         </div>
     );

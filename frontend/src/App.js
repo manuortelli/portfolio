@@ -1,13 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import About from './Components/About/About';
 import Portfolio from './Components/Portfolio/Portfolio';
+import Navbar from './Components/Navbar'
+import { Parallax, Background } from 'react-parallax';
 function App() {
   return (
     <div className="App">
+      <Navbar></Navbar>
+      <Parallax
+
+      bgImage={require('./img/op6lxuawjech4i0fwflqvwwyegt8fv1qqlhcgcyqiqtdsurjiyjcs3kpbfbib31w-.jpg')}
+      bgImageAlt="the cat"
+      strength={500}>
       <About></About>
+    </Parallax>
+    <h1>||</h1>
+    <Parallax
+
+      bgImage={require('./img/op6lxuawjech4i0fwflqvwwyegt8fv1qqlhcgcyqiqtdsurjiyjcs3kpbfbib31w-.jpg')}
+      bgImageAlt="the cat"
+      strength={500}>
+      <About></About>
+    </Parallax>
+
       <Portfolio></Portfolio>
+
     </div>
   );
 }

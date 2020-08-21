@@ -14,7 +14,6 @@ function Portfolio() {
     return (
         <>
             <div className="cardPortfolio">
-            
                 {projects.length > 0 && projects.map((project, index) =>
                     <div className="individual-card" key={index}>
                         <h1>{project.name}</h1>
