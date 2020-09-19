@@ -9,20 +9,11 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Parallax
-
-      bgImage={require('./img/op6lxuawjech4i0fwflqvwwyegt8fv1qqlhcgcyqiqtdsurjiyjcs3kpbfbib31w-.jpg')}
-      bgImageAlt="the cat"
-      strength={500}>
-      <About></About>
-    </Parallax>
-    <h1>||</h1>
-    <Parallax
-
-      bgImage={require('./img/op6lxuawjech4i0fwflqvwwyegt8fv1qqlhcgcyqiqtdsurjiyjcs3kpbfbib31w-.jpg')}
-      bgImageAlt="the cat"
-      strength={500}>
-      <About></About>
-    </Parallax>
+        bgImage={require('./img/op6lxuawjech4i0fwflqvwwyegt8fv1qqlhcgcyqiqtdsurjiyjcs3kpbfbib31w-.jpg')}
+        bgImageAlt="the cat"
+        strength={500}>
+        <About></About>
+      </Parallax>
 
       <Portfolio></Portfolio>
 

@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Técnico en Informática Profesional y Personal",
+        "descripcion": "",
+        "ageBegin": "2008",
+        "ageEnd" : "2015",
+        "city" : "La Plata, Bs As"    
+    },
+    
+    {
+        "title": "Analista Programador Universitario",
+        "descripcion": "",
+        "ageBegin": "2019",
+        "ageEnd" : "Actualidad",
+        "city" : "La Plata, Bs As"    },
+    {
+        "title": "Analista en Teconologias de la Información",
+        "descripcion": "",
+        "ageBegin": "2019",
+        "ageEnd" : "Actualidad",
+        "city" : "La Plata, Bs As" 
+
+    },
+
+    {
+        "title": "Licenciatura en Informática",
+        "descripcion": "",
+        "ageBegin": "2016",
+        "ageEnd" : "Actualidad",
+        "city" : "La Plata, Bs As" 
+    }
+
+
+
+
+
+]
