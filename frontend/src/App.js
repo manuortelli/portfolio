@@ -15,7 +15,7 @@ function App() {
         strength={500}>
         <About></About>
       </Parallax>
-    <Studies></Studies>
+      <Studies></Studies>
       <Portfolio></Portfolio>
 
     </div>
