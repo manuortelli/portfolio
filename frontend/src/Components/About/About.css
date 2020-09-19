@@ -1,13 +1,13 @@
 .container-About{
-    
+    padding-top: 100px;
     width: 100%;
-    height: 92vh;
+    height: 100vh;
     padding-right: 100px;
     padding-left: 100px;
 }
 
 .photo{
-    margin-top: 30px;
+    
     width: 200px;
     height: 200px;
     border-radius: 50%;
