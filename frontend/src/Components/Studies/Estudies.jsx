@@ -18,12 +18,13 @@ function Estudies() {
                 <h1>Estudios</h1>
                 <ul>
                     {studies.length > 0 && studies.map((studies, index) =>
-                    <li>
-                        <div className="individual-card" key={index}>
-                            <h3>{studies.title}</h3>
-                            <h4>{studies.descripcion}</h4>
-                        </div>
-                    </li>
+                    <div className="card text-white bg-dark mb-3" >
+                    <div className="card-body">
+                    <div className="card-header">{studies.title}</div>
+                    <p className="card-text"> {studies.ageBegin} - {studies.ageEnd}</p>
+                    <p className="card-text">{studies.descripcion}</p>
+                    </div>
+                  </div>
                 )}
                  </ul>
             </div>
