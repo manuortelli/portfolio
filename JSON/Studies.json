@@ -14,14 +14,14 @@
         "ageBegin": "2019",
         "ageEnd" : "Actualidad",
         "city" : "La Plata, Bs As." ,
-        "school" :  "UNLP, Facultad de Informática."   },
+        "school" :  "Facultad de Informática, UNLP"  },
     {
         "title": "Analista en Tecnologías de la Información",
         "descripcion": "Actualmente en 3er año",
         "ageBegin": "2019",
         "ageEnd" : "Actualidad",
         "city" : "La Plata, Bs As" ,
-        "school" :  "UNLP, Facultad de Informática."
+        "school" :  "Facultad de Informática, UNLP"
 
     },
 
@@ -31,7 +31,7 @@
         "ageBegin": "2016",
         "ageEnd" : "Actualidad",
         "city" : "La Plata, Bs As" ,
-        "school" :  "UNLP, Facultad de Informática."
+        "school" :  "Facultad de Informática, UNLP"
     }
 
 

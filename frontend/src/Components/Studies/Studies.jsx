@@ -21,8 +21,8 @@ function Studies() {
                     <div className="card text-white bg-dark mb-3" >
                     <div className="card-body">
                     <div className="card-title">{studies.title}</div>
-                    <p className="card-text"> {studies.ageBegin} - {studies.ageEnd}</p>
-                    <p className="card-text">{studies.descripcion}</p>
+                    <p className="card-year"> {studies.ageBegin} - {studies.ageEnd}</p>
+                    <p className="card-text">{studies.descripcion} en {studies.school}</p>
                     </div>
                   </div>
                 )}
