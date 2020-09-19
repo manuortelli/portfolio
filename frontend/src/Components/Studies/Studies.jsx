@@ -14,20 +14,24 @@ function Studies() {
     }, [setStudies])
     return (
         <>
-            <div className="container-Studies">
-                <h1>Estudios</h1>
-                <ul>
+           
+               <div className="box">
+                    <p className="estudios">Estudios</p>
+                <div className="container-Studies">
+
                     {studies.length > 0 && studies.map((studies, index) =>
-                    <div className="card text-white bg-dark mb-3" >
-                    <div className="card-body">
-                    <div className="card-title">{studies.title}</div>
-                    <p className="card-year"> {studies.ageBegin} - {studies.ageEnd}</p>
-                    <p className="card-text">{studies.descripcion} en {studies.school}</p>
-                    </div>
-                  </div>
-                )}
-                 </ul>
-            </div>
+                        <div className="card text-white bg-dark" >
+                            <div className="card-body">
+                                <div className="card-title">{studies.title}</div>
+                                <hr className="mt-2 mb-3"/>
+                                <p className="card-year"> {studies.ageBegin} - {studies.ageEnd}</p>
+                                <p className="card-text">{studies.descripcion} en {studies.school}</p>
+                            </div>
+                        </div>
+                    )}
+
+                </div>
+                </div>
         </>
     );
 

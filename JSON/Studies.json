@@ -7,6 +7,15 @@
         "city" : "La Plata, Bs As"  ,
         "school" :  "Escuela N°1 Gral. Savio"
     },
+
+    {
+        "title": "Licenciatura en Informática",
+        "descripcion": "Actualmente en 3er año",
+        "ageBegin": "2016",
+        "ageEnd" : "Actualidad",
+        "city" : "La Plata, Bs As" ,
+        "school" :  "Facultad de Informática, UNLP"
+    },
     
     {
         "title": "Analista Programador Universitario",
@@ -23,16 +32,9 @@
         "city" : "La Plata, Bs As" ,
         "school" :  "Facultad de Informática, UNLP"
 
-    },
-
-    {
-        "title": "Licenciatura en Informática",
-        "descripcion": "Actualmente en 3er año",
-        "ageBegin": "2016",
-        "ageEnd" : "Actualidad",
-        "city" : "La Plata, Bs As" ,
-        "school" :  "Facultad de Informática, UNLP"
     }
+
+   
 
 
 

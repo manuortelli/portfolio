@@ -16,10 +16,10 @@ function App() {
         <About></About>
       </Parallax>
 
-      <Parallax  strength={500}>  
-      <Studies></Studies>
-      </Parallax>    
-      <Portfolio></Portfolio>
+      <Parallax strength={500}>
+        <Studies></Studies>
+      </Parallax>
+
 
     </div>
   );
