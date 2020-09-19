@@ -1,11 +1,12 @@
 .box{
     padding-top:20px ;
-    background-color: black;
+    
     height: 110vh;
     width: 100%;
 }
 
 .container-Studies{
+   
     color:white;
     margin: 0;
     padding-top: 40px;
@@ -19,10 +20,11 @@
 
 .card
  {
+    background-color: rgba(245, 245, 245, 0.1);
     height: auto;
     width: 500px;
     margin: 10px;
-    border-color: white;
+   
 
  }
 
@@ -34,6 +36,7 @@
 
  .card-year{
      font-weight: bolder;
+     color:white;
  }
 
 

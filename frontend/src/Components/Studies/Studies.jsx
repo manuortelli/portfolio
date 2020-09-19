@@ -20,7 +20,7 @@ function Studies() {
                 <div className="container-Studies">
 
                     {studies.length > 0 && studies.map((studies, index) =>
-                        <div className="card text-white bg-dark" >
+                        <div className="card text-white " >
                             <div className="card-body">
                                 <div className="card-title">{studies.title}</div>
                                 <hr className="mt-2 mb-3"/>
