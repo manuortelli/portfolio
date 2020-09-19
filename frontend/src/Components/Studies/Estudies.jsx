@@ -4,12 +4,16 @@ import axios from 'axios';
 function Estudies() {
     const [information, setInformation] = useState({});
     useEffect(() => {
-        axios.get('https://manuortelliportfoliobackend.herokuapp.com/about')
+        axios.get('https://manuortelliportfoliobackend.herokuapp.com/studies')
             .then(
-                res => setInformation(res.data[0])
+                res => { setInformation(res.data[0])
+                    console.log(res.data)
+                }
             )
     }, [setInformation])
-    return (
+    return ( 
+        <div></div>
+        /*
         <div className="container-About">
             <div className="containerPhoto">
                 {console.log(information.photo)}
@@ -24,10 +28,10 @@ function Estudies() {
                     { information.skills && information.skills.map((skill,index) =>
                            <li>{skill}</li>
                    )}
-                    </ul>*/}
+                    </ul>
             </div>
         </div>
-    );
-}
+    );*/)}
+
 
 export default Estudies;

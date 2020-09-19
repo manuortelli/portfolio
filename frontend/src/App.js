@@ -3,6 +3,7 @@ import './App.css';
 import About from './Components/About/About';
 import Portfolio from './Components/Portfolio/Portfolio';
 import Navbar from './Components/Navbar'
+import Studies from './Components/Studies/Estudies'
 import { Parallax, Background } from 'react-parallax';
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         strength={500}>
         <About></About>
       </Parallax>
-
+    <Studies></Studies>
       <Portfolio></Portfolio>
 
     </div>
