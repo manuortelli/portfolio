@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Estudies.css'
+import './Studies.css'
 
-function Estudies() {
+function Studies() {
     const [studies, setStudies] = useState({});
     useEffect(() => {
         axios.get('https://manuortelliportfoliobackend.herokuapp.com/studies')
@@ -20,7 +20,7 @@ function Estudies() {
                     {studies.length > 0 && studies.map((studies, index) =>
                     <div className="card text-white bg-dark mb-3" >
                     <div className="card-body">
-                    <div className="card-header">{studies.title}</div>
+                    <div className="card-title">{studies.title}</div>
                     <p className="card-text"> {studies.ageBegin} - {studies.ageEnd}</p>
                     <p className="card-text">{studies.descripcion}</p>
                     </div>
@@ -34,4 +34,4 @@ function Estudies() {
 }
 
 
-export default Estudies;
+export default Studies;

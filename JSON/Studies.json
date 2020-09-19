@@ -4,7 +4,8 @@
         "descripcion": "7 años de escuela técnica donde aprendí toda mi base en programación y tambien como técnico en reparación",
         "ageBegin": "2008",
         "ageEnd" : "2015",
-        "city" : "La Plata, Bs As"    
+        "city" : "La Plata, Bs As"  ,
+        "school" :  "Escuela N°1 Gral. Savio"
     },
     
     {
@@ -12,13 +13,15 @@
         "descripcion": "Actualmente en 3er año",
         "ageBegin": "2019",
         "ageEnd" : "Actualidad",
-        "city" : "La Plata, Bs As"    },
+        "city" : "La Plata, Bs As." ,
+        "school" :  "UNLP, Facultad de Informática."   },
     {
         "title": "Analista en Tecnologías de la Información",
         "descripcion": "Actualmente en 3er año",
         "ageBegin": "2019",
         "ageEnd" : "Actualidad",
-        "city" : "La Plata, Bs As" 
+        "city" : "La Plata, Bs As" ,
+        "school" :  "UNLP, Facultad de Informática."
 
     },
 
@@ -27,7 +30,8 @@
         "descripcion": "Actualmente en 3er año",
         "ageBegin": "2016",
         "ageEnd" : "Actualidad",
-        "city" : "La Plata, Bs As" 
+        "city" : "La Plata, Bs As" ,
+        "school" :  "UNLP, Facultad de Informática."
     }
 
 

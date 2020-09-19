@@ -5,8 +5,9 @@
     border: 30px;
     width: auto;
     height: auto;
+
     background-color: black;
-    color: white;
+    color:white;
     justify-content: center;
     display: inline-block; 
     display: flex;
@@ -21,7 +22,8 @@
  }
 
 
- .card-header {
-     font-weight: bold;
+ .card-title {
+     font-size: large;
+     font-style: oblique;
      
  }
