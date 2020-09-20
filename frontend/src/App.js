@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import About from './Components/About/About';
-import Navbar from './Components/Navbar'
-import Studies from './Components/Studies/Studies'
+import Navbar from './Components/Navbar';
+import Studies from './Components/Studies/Studies';
+import Experience from './Components/Experience/Experience';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Parallax, Background } from 'react-parallax';
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <About />
           <hr className="mt-2 mb-3" />
           <Studies />
+          <Experience/>
         </Parallax>
 
       </div>

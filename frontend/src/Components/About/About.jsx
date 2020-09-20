@@ -13,7 +13,6 @@ function About() {
     return (
         <div className="container-About">
             <div className="containerPhoto">
-                {console.log(information.photo)}
                 <img className="photo" alt="FotoDePerfil" src={information.photo}>
                 </img>
             </div>
