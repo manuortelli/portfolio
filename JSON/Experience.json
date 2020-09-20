@@ -1,0 +1,42 @@
+[
+
+    {
+        "name": "Cerveceria Fragua",
+        "yearBegin": "2020",
+        "yearEnd": "Actualidad",
+        "description":"Barman, manejo de caja, atención al publico",
+        "reference":"Jorge Sacido (2215024465)",
+        "city": "Saladillo, Bs As."
+    },
+
+
+    {
+        "name": "Joy-Div Computers",
+        "yearBegin": "2017",
+        "yearEnd": "2019",
+        "description":"Técnico de PC, técnico en redes, atención al público, encargado de depósito, manejo de caja, redes sociales y facturación",
+        "reference":"Ariel D’addona (01158778969)",
+        "city": "La Plata, Bs As."
+    },
+
+
+    {
+        "name": "Seguridad Ercoli",
+        "yearBegin": "2015",
+        "yearEnd": "2017",
+        "description":"Colocación de cámaras de seguridad en casas, edificios, departamentos, locales y demás",
+        "reference":"Gastón Ercoli (2213170339)",
+        "city": "La Plata, Bs As."
+    },
+
+
+{
+    "name": "Ortelli COLD",
+    "yearBegin": "2012",
+    "yearEnd": "2015",
+    "description":"Colocación de aires acondicionados y mantenimiento de equipos de frio",
+    "reference":"Pablo Ortelli (2345680107)",
+    "city": "Saladillo, Bs As."
+}
+
+]
