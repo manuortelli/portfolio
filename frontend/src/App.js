@@ -17,10 +17,20 @@ function App() {
           bgImageAlt="the cat"
           strength={700}>
           <About />
-          <hr className="mt-2 mb-3" />
-          <Studies />
-          <Experience/>
         </Parallax>
+        <br></br>
+        <Parallax bgImage={require('./img/wp4405841.jpg')}
+          bgImageAlt="the cat"
+          strength={400}>
+          <Studies />
+        </Parallax>
+        <br></br>
+        <Parallax bgImage={require('./img/wp4405850.jpg')}
+          bgImageAlt="the cat"
+          strength={400}>
+        <Experience />
+        </Parallax>
+
 
       </div>
     </Router>

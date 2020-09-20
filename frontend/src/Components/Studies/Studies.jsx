@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './Studies.css'
+import './Studies.css';
 
 function Studies() {
     const [studies, setStudies] = useState({});
@@ -20,22 +20,24 @@ function Studies() {
                 <div className="container-Studies">
 
                     {studies.length > 0 && studies.map((studies, index) =>
-                        <div className="card text-white " >
-                            <div className="card-body">
-                                <div className="card-title">{studies.title}</div>
-                                <hr className="mt-2 mb-3"/>
-                                <p className="card-year"> {studies.ageBegin} - {studies.ageEnd}</p>
-                                <p className="card-text">{studies.descripcion} en {studies.school}</p>
-                            </div>
-                        </div>
+                       <div className="card text-white" key={index} >
+                       <div className="card-body">
+                           <div className="card-title">{studies.title}</div>
+                           <hr className="mt-2 mb-3"/>
+                           <p className="card-year"> {studies.ageBegin} - {studies.ageEnd}</p>
+                           <p className="card-text">{studies.descripcion} en {studies.school}</p>
+                       </div>
+                   </div>
                     )}
 
                 </div>
                 </div>
         </>
-    );
+    )
 
 }
 
+
+/**/
 
 export default Studies;

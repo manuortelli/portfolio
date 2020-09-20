@@ -5,7 +5,7 @@
     width: 100%;
 }
 
-.container-Studies{
+.container-Experience{
    
     color:white;
     margin: 0;
@@ -40,7 +40,7 @@
  }
 
 
- .estudios {
+ .title {
      font-style: oblique;
      font-size: 50px;
      color: white;

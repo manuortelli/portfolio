@@ -17,11 +17,11 @@ function Experience() {
     return (
         <>
             <div className="box">
-                    <p className="estudios">Experiencia</p>
+                    <p className="title">Experiencia</p>
                 <div className="container-Studies">
 
                     {experience.length > 0 && experience.map((experience, index) =>
-                        <div className="card text-white " >
+                        <div className="card text-black " >
                             <div className="card-body">
                                 <div className="card-title">{experience.name}</div>
                                 <hr className="mt-2 mb-3"/>
