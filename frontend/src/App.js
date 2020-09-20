@@ -25,7 +25,7 @@ function App() {
           <Studies />
         </Parallax>
         <br></br>
-        <Parallax bgImage={require('./img/wp4405850.jpg')}
+        <Parallax bgImage={require('./img/hammer_blacksmith_metal-44193.jpg')}
           bgImageAlt="the cat"
           strength={400}>
         <Experience />
