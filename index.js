@@ -10,7 +10,8 @@ const port = process.env.PORT || 8080;
 
 const about = require("./JSON/About.json");
 const portfolio = require("./JSON/Portfolio.json");
-const studies = require("./JSON/Studies.json")
+const studies = require("./JSON/Studies.json");
+const experience = require("./JSON/Experience.json");
 
 app.get('/', (req,res) => {
     res.send("Hola, buenas tardes");
@@ -28,6 +29,9 @@ app.get('/studies', (req,res) =>  {
     res.json(studies);
 });
 
+app.get('/experience', (req,res) => {
+    res.json(experience);
+});
 
 app.listen(port, () => {
     console.log(`Server on: ${port}`)
